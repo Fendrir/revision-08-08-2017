@@ -56,4 +56,20 @@ $("input").change(function(){
 //     qui va compter de 1 à nombre et l'afficher dans la console ( utiliser une boucle for)
 //     faire la mème chose en définissant une valeur par défaut à nombre et tester
 
+var cadis = 20;
 
+function compteNumber (number){
+
+	var nombre = 0;
+
+	for (var i = 0; i < cadis; i++) {
+
+		nombre++;
+
+	}
+
+	console.log("il y a : " + nombre + " produits dans le cadis");
+
+}
+
+console.log(compteNumber());
